@@ -1,5 +1,5 @@
 main {
-  width: 70%;
+  width: 75%;
   margin: auto;
   text-align: center;
 }
@@ -22,4 +22,12 @@ main button {
 
 main button:hover {
   background-color: #2681F2;
+}
+
+#meetingSDKElement {
+  height: calc(100vh - 220px);
+}
+#suspension-view-tabpanel-active {
+  height: calc(100vh - 220px);
+  width: 75vw;
 }
