@@ -16,13 +16,13 @@ function App() {
   // setup your signature endpoint here: https://github.com/zoom/meetingsdk-sample-signature-node.js
   var signatureEndpoint = 'http://localhost:4000'
   // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
-  var sdkKey = process.env.sdkKey
-  var meetingNumber = process.env.meetingNumber
+  var sdkKey = process.env.REACT_APP_SDK_KEY
+  var meetingNumber = process.env.REACT_APP_MEETING_NUMBER
   var role = 0
   var leaveUrl = 'http://localhost:3000'
   var userName = 'React'
   var userEmail = ''
-  var passWord = process.env.passWord
+  var passWord = process.env.REACT_APP_PASS_WORD
   // pass in the registrant's token if your meeting or webinar requires registration. More info here:
   // Meetings: https://marketplace.zoom.us/docs/sdk/native-sdks/web/client-view/meetings#join-registered
   // Webinars: https://marketplace.zoom.us/docs/sdk/native-sdks/web/client-view/webinars#join-registered
